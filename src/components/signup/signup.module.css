@@ -1,0 +1,29 @@
+.loginBox {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+    height: 48px;
+    width: 120px;
+}
+
+.parentBg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1577017040065-650ee4d43339?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3870&q=80');
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px){
+	.loginBox {
+        width: 80%;
+        height: 100%;
+    }
+}
