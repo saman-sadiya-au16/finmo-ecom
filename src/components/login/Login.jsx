@@ -69,7 +69,7 @@ const Login = (props) => {
                 <TextField
                 required
                 label="Full Name"
-                name="firstName"
+                name="fullName"
                 onChange={formik.handleChange}
                 value={formik.values.fullName}
                 />
@@ -77,7 +77,7 @@ const Login = (props) => {
                 label="Password"
                 type="password"
                 autoComplete="current-password"
-                name="firstName"
+                name="password"
                 onChange={formik.handleChange}
                 value={formik.values.password}
                 />
